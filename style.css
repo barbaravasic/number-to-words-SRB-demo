@@ -92,7 +92,7 @@ header h3 {
     padding: 20px 40px;
     border-radius: 10px 10px 10px 10px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     background-image: linear-gradient(to right, #5714D5, #5714D5, #04D5DF, #5714D5);
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
@@ -131,4 +131,94 @@ header h3 {
     font-size: 26px;
     text-align: center;
     color: rgb(253, 203, 255);
+}
+
+@media all and (max-width: 1024px) {
+    header {
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h3 {
+        font-size: 20px;
+    }
+
+    .converter-container {
+        padding: 20px;
+    }
+
+    .converter-input label{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .converter-input input{
+        padding: 15px 15px;
+        font-size: 16px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .converter-output{
+        margin-top: 30px;
+    }
+
+    .converter-output h5{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .result {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 676px) {
+    header {
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+
+    .converter-container {
+        padding: 20px;
+        width: 85%;
+    }
+
+    .converter-input label{
+        font-size: 16px;
+    }
+
+    .converter-input input{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .converter-output{
+        margin-top: 20px;
+    }
+
+    .converter-output h5{
+        font-size: 16px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+
 }
