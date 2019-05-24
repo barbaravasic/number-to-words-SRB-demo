@@ -93,6 +93,10 @@ export const numberToWordsSRB = (num) => {
         return 'nula'
     }
 
+    if(numString.length > 9) {
+        return 'Podržani su samo brojevi koji imaju do 9 cifara'
+    }
+
     if (parseInt(numString) < 20 ) {
         return firstNineteen[num]
     }

@@ -1,0 +1,19 @@
+{
+  "name": "number-to-words-serbian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbaravasic/number-to-words-SRB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbaravasic/number-to-words-SRB/issues"
+  },
+  "homepage": "https://github.com/barbaravasic/number-to-words-SRB#readme"
+}
