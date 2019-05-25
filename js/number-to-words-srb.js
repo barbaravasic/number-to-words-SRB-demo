@@ -1,13 +1,14 @@
-export const numberToWordsSRB = (num) => {
+export const numberToWordsSRB = (numInput) => {
     const firstNineteen = ['', 'jedan', 'dva', 'tri', 'četiri', 'pet', 'šest', 'sedam', 'osam', 'devet', 'deset', 'jedanaest', 'dvanaest', 'trinaest', 'četrnaest', 'petnaest', 'šesnaest', 'sedamnaest', 'osamnaest', 'devetnaest']
 
     const firstNineteenMod = ['', 'jedna', 'dve', 'tri', 'četiri', 'pet', 'šest', 'sedam', 'osam', 'devet', 'deset', 'jedanaest', 'dvanaest', 'trinaest', 'četrnaest', 'petnaest', 'šesnaest', 'sedamnaest', 'osamnaest', 'devetnaest']
 
     const tens = ['', '', 'dvadeset', 'trideset', 'četrdeset', 'pedeset', 'šezdeset', 'sedamdeset', 'osamdeset', 'devedeset']
 
-    const hundreds = ['', 'sto', 'dvesta', 'trista', 'četristo', 'petsto', 'šesto', 'sedamsto', 'osamsto', 'devetsto']
+    const hundreds = ['', 'sto', 'dvesta', 'trista', 'četiristo', 'petsto', 'šesto', 'sedamsto', 'osamsto', 'devetsto']
 
-    const numString = num.toString().split('').filter(item => item !== "-").join('')
+    const num = parseInt(numInput)
+    const numString = numInput.split('').filter(item => item !== "-").join('')
 
     const slicedLastTwo = parseInt(numString.slice(-2))
     const slicedFourthFromBack = parseInt(numString[numString.length - 4])
