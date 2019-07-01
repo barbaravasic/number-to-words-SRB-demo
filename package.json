@@ -12,10 +12,6 @@
   "keywords": [],
   "author": "barbara <barbara.vasic0108@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/barbaravasic/number-to-words-SRB/issues"
-  },
-  "homepage": "https://github.com/barbaravasic/number-to-words-SRB#readme",
   "dependencies": {
     "number-to-words-srb": "^1.0.1"
   },
