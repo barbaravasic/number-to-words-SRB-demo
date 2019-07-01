@@ -8,7 +8,8 @@ export const numberToWordsSRB = (numInput) => {
     const hundreds = ['', 'sto', 'dvesta', 'trista', 'četiristo', 'petsto', 'šesto', 'sedamsto', 'osamsto', 'devetsto']
 
     const num = parseInt(numInput)
-    const numString = numInput.split('').filter(item => item !== "-").join('')
+    
+    const numString = numInput.split('').join('')
 
     const slicedLastTwo = parseInt(numString.slice(-2))
     const slicedFourthFromBack = parseInt(numString[numString.length - 4])
