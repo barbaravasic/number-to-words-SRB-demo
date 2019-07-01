@@ -9,10 +9,6 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/barbaravasic/number-to-words-SRB.git"
-  },
   "keywords": [],
   "author": "barbara <barbara.vasic0108@gmail.com>",
   "license": "ISC",
