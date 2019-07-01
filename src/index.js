@@ -1,4 +1,4 @@
-import { numberToWordsSRB } from './number-to-words-srb.js'
+import { numberToWordsSRB } from 'number-to-words-srb'
 
 const btn = document.querySelector('.button')
 const input = document.querySelector('.input')
