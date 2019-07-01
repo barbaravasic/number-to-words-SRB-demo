@@ -8,7 +8,7 @@ var output
 function keyup(e) {
 
     if (e.keyCode == 13) {
-        inputValue = e.target.value;
+        inputValue = parseInt(e.target.value);
         output = numberToWordsSRB(inputValue)
         document.querySelector('.result').innerHTML = output
     }
@@ -17,7 +17,7 @@ function keyup(e) {
 input.addEventListener('keyup', keyup)
 
 btn.addEventListener('click', function (e) {
-    const inputValue = input.value
+    const inputValue = parseInt(input.value)
     output = numberToWordsSRB(inputValue)
     document.querySelector('.result').innerHTML = output
 })

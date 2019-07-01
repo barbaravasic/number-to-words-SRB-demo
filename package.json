@@ -13,7 +13,7 @@
   "author": "barbara <barbara.vasic0108@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "number-to-words-srb": "^1.0.1"
+    "number-to-words-srb": "^1.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
